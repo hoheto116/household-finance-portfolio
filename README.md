@@ -1,3 +1,14 @@
+## 実装コード（実アプリからの抜粋）
+
+応募先がコードの品質を確認できるよう、実運用アプリのコードを一部掲載しています。
+
+- [計算エンジン（TypeScript）](showcase/calculation-engine.ts) — 循環参照、計算式検証、BigInt有理数、丸め
+- [計算式の表示（React）](showcase/Formula.tsx) — 計算根拠の可視化
+- [月次概要（React）](showcase/MonthlyOverview.tsx) — 状態遷移と集計の表示
+- [実装抜粋の説明](showcase/README.md) — 実行条件、AIとの開発分担
+
+これらは**実装ファイルの抜粋**であり、単体で起動する完成アプリではありません。動作する独立デモは [examples](examples/README.md) を参照してください。
+
 # LINE連携 家計管理・月次精算システム
 
 > **個人開発 / Cloudflare上で実運用中**  
