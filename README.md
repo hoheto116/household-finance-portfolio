@@ -10,6 +10,7 @@
 - [LINE Webhook署名検証](showcase/line-domain.ts) — HMAC-SHA256・入力検証
 - [LINEメッセージ・画像通信](showcase/line-client.ts) — LINE APIとの連携
 - [LINE通知画像の安全な配信](showcase/line-notification-images.ts) — 非公開R2と期限付きURL
+- [実際の結合テストからの抜粋](showcase/selected-tests.test.mjs) — 認証・CSRF、式検証、LINE署名検証
 - [実装抜粋の説明](showcase/README.md) — 実行条件、AIとの開発分担
 
 これらは**実装ファイルの抜粋**であり、単体で起動する完成アプリではありません。動作する独立デモは [examples](examples/README.md) を参照してください。
