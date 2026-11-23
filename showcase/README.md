@@ -10,6 +10,7 @@
 | [line-domain.ts](line-domain.ts) | LINE Webhook署名検証（HMAC-SHA256）、円金額のパース、画像形式判定 |
 | [line-client.ts](line-client.ts) | LINE返信メッセージ構築、API通信、画像のサイズ・転送制御 |
 | [line-notification-images.ts](line-notification-images.ts) | 非公開R2画像を期限付きトークンで配信する制御 |
+| [selected-tests.test.mjs](selected-tests.test.mjs) | 認証・CSRF、式の不正入力・循環参照、LINE署名のテストを実テストから抜粋 |
 
 ## AIを活用した開発で担当したこと
 
@@ -19,4 +20,4 @@
 
 これらは**単体で起動できるサンプルアプリではありません**。元のアプリの型・コンポーネント・APIとの連携を前提としたファイルです。特にReactコンポーネントは元リポジトリのCSSや型定義を参照します。手軽に動作を確認したい場合は [examples](../examples/README.md) の独立デモを利用してください。
 
-LINE連携の署名検証・通信・画像配信処理は掲載済みです。Webhook全体のルーティングや実際のテストコードは未掲載で、今後の選定対象です。
+LINE連携の署名検証・通信・画像配信処理は掲載済みです。Webhook全体のルーティングは未掲載です。テストは元の結合テストから抜粋したもので、単独実行はできません。
