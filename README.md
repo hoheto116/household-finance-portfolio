@@ -7,6 +7,8 @@
 - [計算エンジン（TypeScript）](showcase/calculation-engine.ts) — 循環参照、計算式検証、BigInt有理数、丸め
 - [計算式の表示（React）](showcase/Formula.tsx) — 計算根拠の可視化
 - [月次概要（React）](showcase/MonthlyOverview.tsx) — 状態遷移と集計の表示
+- [計算設定（React）](showcase/CalculationSettings.tsx) — 再帰的な式エディタと設定更新競合への対応
+- [月次詳細（React）](showcase/MonthlyDetails.tsx) — 過去月・計算根拠・証跡の参照
 - [LINE Webhook署名検証](showcase/line-domain.ts) — HMAC-SHA256・入力検証
 - [LINEメッセージ・画像通信](showcase/line-client.ts) — LINE APIとの連携
 - [LINE通知画像の安全な配信](showcase/line-notification-images.ts) — 非公開R2と期限付きURL
@@ -90,6 +92,8 @@ LINEは日常の入力・通知の窓口、Webは設定から月次登録、精�
 ※各チャネルの主な役割を示した表であり、全機能の対応可否一覧ではありません。
 
 Webでは、設定した家計ルールに基づいて月次データを登録し、計算結果を確認して締め処理を行い、過去月の確定結果を参照できます。日常入力と管理業務を分離しながら、共通のAPI・データ・計算ルールを利用する構成です。
+
+[Web管理画面の構成・月次状態遷移・設計の詳細](docs/web-workflow.md)
 
 ### 画面サンプル
 
