@@ -7,6 +7,8 @@
 | [calculation-engine.ts](calculation-engine.ts) | 計算式の検証、循環参照検出、BigInt有理数演算、丸め処理、計算過程の記録 |
 | [Formula.tsx](Formula.tsx) | 計算過程を日本語ラベル付きで可視化するReactコンポーネント |
 | [MonthlyOverview.tsx](MonthlyOverview.tsx) | 月次処理の状態と金額を一覧化するReactコンポーネント |
+| [CalculationSettings.tsx](CalculationSettings.tsx) | 再帰的な式編集UI、設定リビジョンによる更新制御 |
+| [MonthlyDetails.tsx](MonthlyDetails.tsx) | 月次詳細、確定結果、証跡表示、AbortControllerによる取得制御 |
 | [line-domain.ts](line-domain.ts) | LINE Webhook署名検証（HMAC-SHA256）、円金額のパース、画像形式判定 |
 | [line-client.ts](line-client.ts) | LINE返信メッセージ構築、API通信、画像のサイズ・転送制御 |
 | [line-notification-images.ts](line-notification-images.ts) | 非公開R2画像を期限付きトークンで配信する制御 |
