@@ -1,6 +1,6 @@
 # LINE連携 家計管理・月次精算システム
 
-[![Portfolio checks](https://github.com/hoheto116/household-finance-portfolio/actions/workflows/portfolio-check.yml/badge.svg)](https://github.com/hoheto116/household-finance-portfolio/actions/workflows/portfolio-check.yml)
+**CI：** [GitHub Actions — テスト・検証結果](https://github.com/hoheto116/household-finance-portfolio/actions/workflows/portfolio-check.yml)
 
 > **個人開発 / Cloudflare上で実運用中**  
 > Excelに集中していた夫婦の月次精算を、LINEからの随時登録・自動計算・家族間の情報共有へ改善したプロジェクトです。
