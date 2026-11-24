@@ -1,0 +1,12 @@
+{
+  "name": "household-finance-portfolio",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test showcase/calculation-engine.test.mjs",
+    "demo": "node examples/calculation-demo.mjs"
+  }
+}
