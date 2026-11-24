@@ -18,11 +18,33 @@
 
 **主要資料：** [AI開発プロセス](docs/ai-development-process.md) ｜ [Web管理・月次業務](docs/web-workflow.md) ｜ [実装・テストコード](showcase/README.md) ｜ [独立デモ](examples/README.md)
 
-## 実運用画面（掲載準備中）
+## 実運用画面
 
-LINEでの入力・家族通知、Webでの月次計算・計算式編集・ユーザー項目追加・招待承認の6画面を掲載予定です。個人情報等をマスキングした実画面を使用し、独立デモとは区別します。
+実際の利用画面です。個人情報・金額・証跡等をマスキングした画像を掲載しています。表示形式を示すため一部の0は残しています。
 
-[画面一覧と技術的な見どころ](docs/screenshots.md)
+### LINEでの日常入力・家族間共有
+
+| 登録確認 | 家族への通知 |
+| --- | --- |
+| <img src="screenshots/line-registration.png" width="280" alt="LINE登録確認"> | <img src="screenshots/line-notification.png" width="280" alt="LINE通知"> |
+
+### Webでの月次精算・計算設定
+
+**月次計算：** 振込額と計算根拠の確認。
+
+![月次計算](screenshots/monthly-calculation.png)
+
+**計算式編集：** 演算と項目参照を組み合わせる再帰的な編集UI。
+
+![計算式編集](screenshots/formula-editor.png)
+
+### 柔軟な項目設定・家族のアクセス管理
+
+| ユーザー項目追加 | 家族招待・承認 |
+| --- | --- |
+| ![項目追加](screenshots/custom-item.png) | ![家族招待](screenshots/family-invitation.png) |
+
+[各画面の技術的な見どころ](docs/screenshots.md)
 
 ## 1. Codexを使った開発プロセス
 
@@ -158,7 +180,7 @@ LINE WebhookのHMAC-SHA256署名検証、LINE Login、管理者・メンバー�
 node examples/calculation-demo.mjs
 ```
 
-このサンプルは**実際のReactアプリやLINEに接続していません**。LINEの図は実画面のスクリーンショットではなく、機能を説明するための図です。実画面キャプチャは個人情報保護のため未掲載です。
+このサンプルは**実際のReactアプリやLINEに接続していません**。LINEの図は実画面のスクリーンショットではなく、機能を説明するための図です。実画面キャプチャは上記「実運用画面」に掲載しています。
 
 ## 7. 実運用で確認したこと
 
