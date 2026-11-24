@@ -1,17 +1,17 @@
-# 実運用画面 — 掲載準備
+# 実運用画面
 
 以下は実運用アプリの画面です。公開用画像は金額・氏名・請求書・本番URL・LINEアカウント名とアイコンをマスキングしています。計算表示の一部の0は表示形式を示すため残しています。架空データの独立デモとは異なります。
 
-現在は画像登録待ちです。登録後にこのページとREADMEに画像を表示します。
+6枚の画像を登録済みです。[READMEの実運用画面](../README.md#実運用画面)から参照できます。
 
 | 画像ファイル | 画面 | 設計・実装のポイント |
 | --- | --- | --- |
-| line-registration.png | LINE入力・登録確認 | 確認・キャンセルを経て登録し、次の入力へ進む |
-| line-notification.png | LINE通知・リッチメニュー | 家族への登録通知・証跡共有と項目別入力の入口 |
-| monthly-calculation.png | Web月次計算 | 確定時の振込額と計算内訳を表示 |
-| formula-editor.png | 計算式編集 | 演算と項目参照を組み合わせる再帰的な編集UI |
-| custom-item.png | ユーザー項目追加 | 自動採番、区分・性質・入力方式・周期の設定 |
-| family-invitation.png | 家族の招待・承認 | 24時間有効・1人限定の招待と管理者承認 |
+| [line-registration.png](../screenshots/line-registration.png) | LINE入力・登録確認 | 確認・キャンセルを経て登録し、次の入力へ進む |
+| [line-notification.png](../screenshots/line-notification.png) | LINE通知・リッチメニュー | 家族への登録通知・証跡共有と項目別入力の入口 |
+| [monthly-calculation.png](../screenshots/monthly-calculation.png) | Web月次計算 | 確定時の振込額と計算内訳を表示 |
+| [formula-editor.png](../screenshots/formula-editor.png) | 計算式編集 | 演算と項目参照を組み合わせる再帰的な編集UI |
+| [custom-item.png](../screenshots/custom-item.png) | ユーザー項目追加 | 自動採番、区分・性質・入力方式・周期の設定 |
+| [family-invitation.png](../screenshots/family-invitation.png) | 家族の招待・承認 | 24時間有効・1人限定の招待と管理者承認 |
 
 関連実装：[計算エンジン](../showcase/calculation-engine.ts)、[計算式表示](../showcase/Formula.tsx)、[計算設定](../showcase/CalculationSettings.tsx)、[LINE通信](../showcase/line-client.ts)、[Web業務フロー](web-workflow.md)。
 
