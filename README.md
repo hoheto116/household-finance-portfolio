@@ -18,6 +18,12 @@
 
 **主要資料：** [AI開発プロセス](docs/ai-development-process.md) ｜ [Web管理・月次業務](docs/web-workflow.md) ｜ [実装・テストコード](showcase/README.md) ｜ [独立デモ](examples/README.md)
 
+## 実運用画面（掲載準備中）
+
+LINEでの入力・家族通知、Webでの月次計算・計算式編集・ユーザー項目追加・招待承認の6画面を掲載予定です。個人情報等をマスキングした実画面を使用し、独立デモとは区別します。
+
+[画面一覧と技術的な見どころ](docs/screenshots.md)
+
 ## 1. Codexを使った開発プロセス
 
 | 開発者が主導 | Codexで支援 |
