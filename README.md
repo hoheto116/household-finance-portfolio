@@ -1,5 +1,7 @@
 # LINE連携 家計管理・月次精算システム
 
+[![Portfolio checks](https://github.com/hoheto116/household-finance-portfolio/actions/workflows/portfolio-check.yml/badge.svg)](https://github.com/hoheto116/household-finance-portfolio/actions/workflows/portfolio-check.yml)
+
 > **個人開発 / Cloudflare上で実運用中**  
 > Excelに集中していた夫婦の月次精算を、LINEからの随時登録・自動計算・家族間の情報共有へ改善したプロジェクトです。
 
@@ -166,4 +168,4 @@ LINEからの登録と確認、家族への通知・証跡共有、LINE Login、
 
 Node.js 24でリポジトリのルートから `npm test` を実行すると、掲載した計算エンジンそのものを架空データで検証する8件の単体テストを実行できます。 `npm run demo` は独立した説明用サンプルを実行します。
 
-GitHub Actionsにも同じコマンドを設定しています。CIの実行結果は未確認です。Reactのビルド、LINE連携、元の結合テストはこの検証の対象外です。
+GitHub Actionsにも同じコマンドを設定しています。2026-11-24にGitHub Actionsの成功を画面で確認しました。Reactのビルド、LINE連携、元の結合テストはこの検証の対象外です。
